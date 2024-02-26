@@ -12,7 +12,7 @@ body:
   - type: dropdown
     id: affected-domain
     attributes:
-      label: Domain
+      label: EVerest Domain
       description: Can you specify a specific domain is affected by the issue? Mark multiple if applicable.
       options:
         - Authorization
@@ -37,7 +37,7 @@ body:
   - type: textarea
     id: affected-module
     attributes:
-      label: Affected Module
+      label: Affected EVerest Module
       description: |
         Please specify the module where the bug is located. If you are not sure, please leave this field empty.
 
